@@ -119,12 +119,15 @@ body{
 
 .article_text{
 	display:flex;
+	align-content:stretch;
 	flex-flow: row;
 	
 }
 
 .article p{
+	margin-top:10px;
 	margin-bottom:20px;
+	margin:10px;
 	width:50%;
 }
 
