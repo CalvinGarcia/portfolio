@@ -18,14 +18,14 @@ html{
 	height:100%;
 }
 
-/*header{
+header{
 	position: absolute;
 	top:15px;
 	/*left:1%;*/
 	display:flex;
 	flex-direction: column;	
 	width:80%;
-}*/
+}
 
 
 header h1{
@@ -281,12 +281,12 @@ body{
 /*iPad Mobile responsiveness begins here. */
 
 
-
+/*
 @media screen and( max-width: 375px){
 	
 .container{
 	max-width: 100vw
-	
+
 }
 
 .menu{
@@ -306,19 +306,22 @@ header{
 }
 
 
-nav{
+nav {
 
 display:flex;
 flex-flow:column;
 flex-wrap:wrap;
+position:static;
 width:100px;
 
 
 
 }
 
-nav li{
-	display:block;
+nav ul{
+	display:flex;
+	flex-flow: 
+
 }
 
 
@@ -336,3 +339,4 @@ nav li{
 }
 
 }
+*/
